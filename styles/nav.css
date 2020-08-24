@@ -1,7 +1,6 @@
 nav {
   overflow: hidden;    
-  border: 2px solid #9a0606;
-  border-radius: 5px;
+  border-bottom: 2px solid #9a0606;
 }
 
 nav a {
