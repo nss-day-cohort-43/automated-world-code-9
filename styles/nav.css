@@ -1,0 +1,24 @@
+nav {
+  overflow: hidden;    
+  border-bottom: 2px solid #9a0606;
+}
+
+nav a {
+  float: left;
+  padding-right: 5%;
+  color: #9a0606;
+  text-align: center;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color:#ec4c4c;
+  color: #fff;
+}
+
+nav a.active {
+  background-color: #ec4c4c;
+  color: white;
+}
