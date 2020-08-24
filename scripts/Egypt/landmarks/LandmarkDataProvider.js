@@ -1,4 +1,4 @@
-export const egyptLandmarks = () => [
+export const egyptianLandmarks = () => [
     {
         landmarks: "Giza Pyramid",
         location: "Giza",
@@ -21,5 +21,5 @@ export const egyptLandmarks = () => [
 ]
 
 export const egyptLandmarks = () => {
-    return egyptLandmarks.slice()
+    return egyptianLandmarks.slice()
 }
