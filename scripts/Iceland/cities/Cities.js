@@ -5,7 +5,7 @@ export const City = (cityObj) => {
             <img class="city-image" src="/images/${cityObj.image}" alt="${cityObj.name} Image">
         </div>
         <p> City Name: ${cityObj.name} </p>
-        <p> Population: ${cityObj.name} </p>
+        <p> Population: ${cityObj.population} </p>
     </div>
     `
 }
