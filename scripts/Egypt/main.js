@@ -1,8 +1,19 @@
-import { CityDataProvider } from './cities/CityDataProvider.js';
-import { LandmarkDataProvider } from './landmarks/LandmarkDataProvider.js';
-import { LeaderDataProvider } from './leader/LeaderDataProvider.js';
+import { egyptianCities} from './cities/CityDataProvider.js';
+import { egyptianLandmarks } from './landmarks/LandmarkDataProvider.js';
+import { egyptianLeaders } from './leaders/LeaderDataProvider.js';
 
-CityDataProvider();
-LandmarkDataProvider();
-LandmarkDataProvider();
+// egyptCities();
+// egyptLeaders();
+// egyptLandmarks();
 
+
+const cities = egyptianCities();
+console.log(cities)
+
+
+const landmarks = egyptianLandmarks();
+console.log(landmarks)
+
+
+const leaders = egyptianLeaders();
+console.log(leaders)
