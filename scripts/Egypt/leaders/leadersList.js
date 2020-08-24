@@ -13,4 +13,6 @@ export const Leader = (leaderObj) => {
 			</ul>
 		</div>
 	`
+
+	
 }

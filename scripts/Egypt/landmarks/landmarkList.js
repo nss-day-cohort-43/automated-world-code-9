@@ -13,4 +13,6 @@ export const Landmark = (landmarkObj) => {
 			</ul>
 		</div>
 	`
+
+	
 }

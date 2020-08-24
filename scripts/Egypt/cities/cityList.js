@@ -13,4 +13,7 @@ export const City = (cityObj) => {
 			</ul>
 		</div>
 	`
+
+	
 }
+
