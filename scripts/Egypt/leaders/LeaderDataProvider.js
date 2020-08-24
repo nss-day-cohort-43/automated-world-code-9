@@ -1,8 +1,10 @@
+
 export const egyptLeaders = () => [
     {
         leaders: "Hatshepsut",
         dynasty: 18,
         yearsRuled: 15
+        diedOf
     },
     {
         leaders: "Ramesses II",
