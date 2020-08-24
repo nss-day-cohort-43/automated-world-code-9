@@ -1,24 +1,36 @@
 nav {
-  overflow: hidden;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 2px solid #9a0606;
 }
 
 nav a {
-  float: left;
-  padding-right: 5%;
+  width: 20%;
   color: #9a0606;
   text-align: center;
-  padding: 1em 2em;
   text-decoration: none;
   font-size: 17px;
+  padding: 1em;
 }
 
-nav a:hover {
-  background-color:#9a0606;
+.countylink:hover {
+  background-color: #9a0606;
   color: #fff;
+  font-weight: 800;
 }
 
 nav a.active {
   background-color: #ec4c4c;
-  color: white;
+  color: #fff;
+  font-weight: 800;
+}
+
+nav img {
+  padding: 0;
+  margin:0;
+}
+
+a {
+  cursor: pointer;
 }
