@@ -1,0 +1,24 @@
+
+/* Container holding the image and the text */
+.title-box {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Country Name */
+  .title-text {
+    font-size: 75px;
+    color: white;
+    position: absolute;
+    bottom: 75px;
+    left: 30px;
+    border: solid white 2px;
+    padding: 40px;
+    margin: 10px;
+  }
+
+
+  
+
+
