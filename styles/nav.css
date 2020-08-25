@@ -34,3 +34,7 @@ nav img {
 a {
   cursor: pointer;
 }
+
+#logo {
+  width: 60px;
+}
