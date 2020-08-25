@@ -1,24 +1,34 @@
-
-/* Container holding the image and the text */
 .title-box {
+    display: flex;
     position: relative;
     text-align: center;
-    color: white;
-  }
+}
 
-  /* Country Name */
   .title-text {
-    font-size: 75px;
+    /* background-image: url(egyptImages/camel2.jpg); */
+    background-size: cover;
+    /* background-color: black; */
+    flex: flex;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Noto Sans TC', sans-serif;
     color: white;
     position: absolute;
-    bottom: 75px;
-    left: 30px;
-    border: solid white 2px;
-    padding: 40px;
-    margin: 10px;
+    bottom: 50px;
+    left: 60px;
+    border: solid white 3px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+    /* opacity: .7; */
   }
 
-
-  
-
-
+  .sub-title {
+    flex: flex;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+  }
