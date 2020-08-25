@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../styles/main.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/ember.css">
+  <link rel="stylesheet" href="egypt.css">
   <title>Peru</title>
 </head>
 
@@ -12,17 +14,65 @@
   <!-- NAV -->
   <section>
     <nav id="navBar" class="topnav">
-      <a id="logo" href="index.html"><img src="images/logo.png" alt="code 9 Logo" width=" 70px"></a>
+      <a id="logo" href="index.html"><img src="images/logo.png" alt="code 9 Logo" width="60px"></a>
       <a class="countylink" href="egypt.html">Eqypt</a>
       <a class="countylink" href="iceland.html">Iceland</a>
       <a class="countylink active" href="peru.html">Peru</a>
     </nav>
   </section>
+
+
+  <!-- // YOUR IMAGE, COUNTRgitY NAME AND SLOGAN BELOW -->
   <section>
-    <div class="citiesUI"></div>
-    <div class="landmarksUI"></div>
-    <div class="leadersUI"></div>
+    <div class="title-box">
+      <div class="page-image"><img src="images/peruMain.jpg" alt="peru mountains" width="100%">
+        <div class="title-text">Peru
+          <p class="sub-title">Go where you feel most alive</p>
+        </div>
+      </div>
   </section>
+
+
+  <!-- section with 3 cards containing info about each country  -->
+  <section class="card-container">
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <!-- Card Image -->
+      <div>
+        <img src="images/peruLandmarks.jpg" alt="peru coastline" width="100%">
+      </div>
+      <div class="landmark-card">
+        <h3>Peru Landmarks</h3>
+      </div>
+      <div class="citiesUI"></div>
+    </div>
+
+
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <!-- Card Image -->
+      <div>
+        <img src="images/peruLeaders.jpg" alt="peru coastline" width="100%">
+      </div>
+      <div class="card-header">
+        <h3>Peru Leaders</h3>
+      </div>
+      <div class="leadersUI"></div>
+    </div>
+
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <!-- Card Image -->
+      <div>
+        <img src="images/peruCities.jpg" alt="peru coastline" width="100%">
+      </div>
+      <div class="card-header">
+        <h3>Peru Cities</h3>
+      </div>
+      <div class="landmarksUI"></div>
+    </div>
+  </section>
+
   <footer>&copy Code 9 Travel 2020</footer>
   <script type="module" src="./scripts/Peru/main.js"></script>
 </body>
