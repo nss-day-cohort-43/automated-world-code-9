@@ -1,4 +1,22 @@
+body {
+  background-color: #fefdfb;
+}
+
 h1 {
   text-align: center;
   font-size: 6em;
+  color: #9a0606;
+}
+h3{
+  color: #9a0606;
+}
+
+
+.info-card {
+  border: solid 1px #8B4513;
+}
+
+.info-card p{
+  color: #8B4513;
+  font-size: 1em;
 }
