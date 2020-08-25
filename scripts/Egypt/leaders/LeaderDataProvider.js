@@ -1,5 +1,5 @@
 
-export const egyptianLeaders = () => [
+export const egyptLeaders = () => [
     {
         pharoh: "Queen Hatshepsut",
         parents: "King Thutmose I and Ahmose",
@@ -23,5 +23,5 @@ export const egyptianLeaders = () => [
 ]
 
 export const egyptLeaders = () => {
-    return egyptianLeaders.slice()
+    return egyptLeaders.slice()
 }

@@ -1,5 +1,5 @@
 
-export const egyptianCities = () => [
+export const egyptCities = () => [
     {
         city: "Cairo",
         yearFounded: "969 AD",
@@ -22,5 +22,5 @@ export const egyptianCities = () => [
 ]
 
 export const egyptCities = () => {
-    return egyptianCities.slice()
+    return egyptCities.slice()
 }

@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="egypt.css">
-    <link rel="stylesheet" href="styles/ember.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/footer.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/ember.css">
+  <link rel="stylesheet" href="egypt.css">
+  <link rel="stylesheet" href="styles/Egyptian.css">
+  <title>Egyptian</title>
 </head>
+
 <body>
-    <section>
-        <nav id="navBar" class="topnav">
-          <a id="logo" href="index.html"><img src="images/logo.png" alt="code 9 Logo" width=" 70px"></a>
-          <a class="countylink-active" href="egyptIndex.html">Eqypt</a>
-          <a class="countylink" href="iceland.html">Iceland</a>
-          <a class="countylink active" href="peru.html">Peru</a>
-        </nav>
-      </section>
-
-    <!-- // YOUR IMAGE, COUNTRgitY NAME AND SLOGAN BELOW -->
-      <section>
-        <div class="title-box">
-            <div class="page-image"><img src="egyptImages/egyptMain.jpg" alt="camel at dusk" width= "100%">
-            <div class="title-text">EGYPT
-                <p class="sub-title">Go where you feel most alive</p>
-            </div>
-        </div>
-    </section>
-    <section class="card-container">
-
-        <!-- div containing one single card -->
-        <div class="info-card">
-            <div class="landmark-card">
-                <h3>Egyption Landmarks</h3>
-            </div>
-            <div class="cityList">
-            </div>
-        </div>
-    
-    
-        <!-- div containing one single card -->
-        <div class="info-card">
-            <div class="card-header">
-                <h3>Egyptian Leaders</h3>
-            </div>
-            <div class="leaderList">
-        
-            </div>
-        </div>
-    
-        <!-- div containing one single card -->
-        <div class="info-card">
-            <div class="card-header">
-                <h3>Egyptian Cities</h3>
-            </div>
-            <div class="landmarkList"> 
-            </div>
-        </div>
-    </section>
+  <!-- NAV -->
+  <section>
+    <nav id="navBar" class="topnav">
+      <a id="logo" href="index.html"><img src="images/logo.png" alt="code 9 Logo" width="60px"></a>
+      <a class="countylink active" href="egypt.html">Egypt</a>
+      <a class="countylink" href="iceland.html">Iceland</a>
+      <a class="countylink" href="Egyptian.html">Peru</a>
+    </nav>
+  </section>
 
 
-        
-        <footer>&copy Code 9 Travel 2020</footer>
-        <script type="module" src="scripts/Egypt/main.js"></script>
+  <!-- // YOUR IMAGE, COUNTRgitY NAME AND SLOGAN BELOW -->
+  <section>
+    <div class="title-box">
+      <div class="page-image"><img src="egyptImages/egyptMain.jpg" alt="camel herd at sunset dusk" width="100%">
+        <div class="title-text">EGYPT
+          <p class="sub-title">Go where you feel most alive</p>
+        </div>
+      </div>
+  </section>
+
+  <h1>Ancient Secrets Await!</h1>
+
+  <!-- section with 3 cards containing info about each country  -->
+  <section class="card-container">
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <!-- Card Image -->
+      <div>
+        <img src="egyptImages/egyptCamel.jpeg" alt="camel" width="100%">
+      </div>
+      <div class="landmark-card">
+        <h5>Egyptian Landmarks</h5>
+      </div>
+      <div class="citiesUI"></div>
+    </div>
+
+
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <div>
+        <img src="egyptImages/egyptCamel.jpeg" alt="camel" width="100%">
+      </div>
+      <div class="card-header">
+        <h5>Egyptian Leaders</h5>
+      </div>
+      <div class="leadersUI"></div>
+    </div>
+
+    <!-- div containing one single card -->
+    <div class="info-card">
+      <!-- Card Image -->
+      <div>
+        <img src="egyptImages/egyptCamel.jpeg" alt="camel" width="100%">
+      </div>
+      <div class="card-header">
+        <h5>Egyptian Cities</h5>
+      </div>
+      <div class="landmarksUI"></div>
+    </div>
+  </section>
+  <footer>&copy Code 9 Travel 2020</footer>
+  <script type="module" src="./scripts/Egypt/main.js"></script>
 </body>
+
 </html>
