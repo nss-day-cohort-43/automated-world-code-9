@@ -2,8 +2,8 @@ export const Landmark = (LandmarkObj) => {
     return `
     <div class="Landmark-card">
         
-        <p> Landmark Name: ${LandmarkObj.name} </p>
-        <p> Location: ${LandmarkObj.Location} </p>
+        <h5> Landmark Name: ${LandmarkObj.name} </h5>
+        <p> • Location: ${LandmarkObj.Location} </p>
     </div>
     `
 }
