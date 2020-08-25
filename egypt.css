@@ -5,9 +5,8 @@
 }
 
   .title-text {
-    /* background-image: url(egyptImages/camel2.jpg); */
+    /* background-image: url(egyptImages/egyptFlag.jpeg); */
     background-size: cover;
-    /* background-color: black; */
     flex: flex;
     text-align: left;
     font-size: 100px;
@@ -17,12 +16,8 @@
     bottom: 50px;
     left: 60px;
     border: solid white 3px;
-    padding-top: 0px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin: 0px;
-    /* opacity: .7; */
+    padding: 0px 25px 25px;
+    /* opacity: .8; */
   }
 
   .sub-title {
@@ -30,5 +25,4 @@
     font-size: 10px;
     color: white;
     text-align: center;
-    margin-top: 0px;
   }
