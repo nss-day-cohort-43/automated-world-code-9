@@ -2,8 +2,8 @@ export const City = (cityObj) => {
     return `
     <div class="city-card">
        
-        <p> City Name: ${cityObj.name} </p>
-        <p> Population: ${cityObj.population} </p>
+        <h5> City Name: ${cityObj.name} </h5>
+        <p>• Population: ${cityObj.population} </p>
     </div>
     `
 }

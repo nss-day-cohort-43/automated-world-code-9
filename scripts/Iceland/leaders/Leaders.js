@@ -1,8 +1,8 @@
 export const Leader = (leaderObj) => {
     return `
     <div class="leader-card">
-        <p> leader Name: ${leaderObj.name} </p>
-        <p> Position: ${leaderObj.position} </p>
+        <h5> Leader Name: ${leaderObj.name} </h5>
+        <p>• Position: ${leaderObj.position} </p>
     </div>
     `
 }
