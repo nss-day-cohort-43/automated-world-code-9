@@ -2,10 +2,12 @@ const icelandLeaders = [
     {
         name: "Guðni Thorlacius Jóhannesson",
         position: "President of Iceland",
+        photo: "Leader1.jpeg"
     },
     {
         name: "Katrín Jakobsdóttir",
-        position: "Prime Minister" 
+        position: "Prime Minister" ,
+        // photo: "Leader2.jpeg"
     },
     {
         name: "Bjarni Benediktsson",

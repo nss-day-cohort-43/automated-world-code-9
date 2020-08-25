@@ -23,4 +23,7 @@ export const leaderList = (leaderList) => {
             ${leaderHTMLRepresentaion}
         
     `
+
+
+    return contentElement
 }
