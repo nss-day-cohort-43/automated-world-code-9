@@ -2,7 +2,7 @@ import { egyptLeader } from './LeaderDataProvider.js'
 import { egyptLeader } from './Leader.js'
 
 const useEgyptLeader = egyptLeader()
-const leardersUI = document.querySelector('.leadersUI')
+const leadersUI = document.querySelector('.leadersUI')
 
 export const leaderList = () => {
   useEgyptLeader.forEach(leader => {
