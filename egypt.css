@@ -1,5 +1,4 @@
 .title-box {
-    display: flex;
     position: relative;
     text-align: center;
 }
@@ -7,7 +6,6 @@
   .title-text {
     /* background-image: url(egyptImages/egyptFlag.jpeg); */
     background-size: cover;
-    flex: flex;
     text-align: left;
     font-size: 100px;
     font-family: 'Noto Sans TC', sans-serif;
@@ -25,6 +23,10 @@
     font-size: 10px;
     color: white;
     text-align: center;
+  }
+
+  .page-image {
+    flex: flex;
   }
 
   h1 {

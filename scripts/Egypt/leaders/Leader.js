@@ -1,3 +1,3 @@
 export const egyptLeader = (leaderObj) => {
-	return `<p>${leaderObj.leader} - ${leaderObj.position}</p>`
+	return `<p>${leaderObj.leader}</p>`
   }
