@@ -33,3 +33,69 @@
     text-align: center;
     font-size: 6em;
   }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex: 12;
+    background-color: black;
+
+}
+
+.info-card {
+    margin: 1em;
+    padding: 0.25em;
+    border: 1px solid lightgray;
+    flex: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-card:hover {
+    background-color: darkgrey;
+    /* opacity: .8; */
+}
+
+h3 {
+    font-weight: 700;
+    color: #9a0606;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+}
+
+.leadersUI {
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.citiesUI {
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.landmarkUI {
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.info-card h5{
+    font-weight: 400;
+    font-size: 25px;
+    margin: auto;
+    
+}
+
+.info-card p{
+    font-weight: 100;
+    font-size: 12px;
+    padding-left: 1.5em;
+    padding-top: 0;
+    padding-bottom: 1.5em;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
